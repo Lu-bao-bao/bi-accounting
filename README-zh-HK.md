@@ -151,13 +151,9 @@
 
 ## 截圖
 
-<p align="center">
-  <img src="docs/images/Image_20260501131704_78_6.jpg" alt="截圖 1" style="max-width:18%;height:auto;margin:0 4px" />
-  <img src="docs/images/Image_20260501131704_79_6.jpg" alt="截圖 2" style="max-width:18%;height:auto;margin:0 4px" />
-  <img src="docs/images/Image_20260501131704_80_6.jpg" alt="截圖 3" style="max-width:18%;height:auto;margin:0 4px" />
-  <img src="docs/images/Image_20260501131704_81_6.jpg" alt="截圖 4" style="max-width:18%;height:auto;margin:0 4px" />
-  <img src="docs/images/Image_20260501131705_82_6.jpg" alt="截圖 5" style="max-width:18%;height:auto;margin:0 4px" />
-</p>
+| | | | | |
+|---|---|---|---|---|
+| <img src="docs/images/Image_20260501131704_78_6.jpg" alt="截圖 1" width="120" /> | <img src="docs/images/Image_20260501131704_79_6.jpg" alt="截圖 2" width="120" /> | <img src="docs/images/Image_20260501131704_80_6.jpg" alt="截圖 3" width="120" /> | <img src="docs/images/Image_20260501131704_81_6.jpg" alt="截圖 4" width="120" /> | <img src="docs/images/Image_20260501131705_82_6.jpg" alt="截圖 5" width="120" /> |
 
 
 ---
