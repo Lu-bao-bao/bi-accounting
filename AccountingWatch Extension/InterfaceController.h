@@ -1,0 +1,15 @@
+//
+//  InterfaceController.h
+//  AccountingWatch Extension
+//
+//  Created by AmeRin on 21/10/2017.
+//  Copyright © 2017 RM studio. All rights reserved.
+//
+
+#import <WatchKit/WatchKit.h>
+#import <Foundation/Foundation.h>
+#import <WatchConnectivity/WatchConnectivity.h>
+
+@interface InterfaceController : WKInterfaceController<WCSessionDelegate>
+
+@end

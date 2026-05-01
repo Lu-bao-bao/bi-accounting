@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialHB.ttc">
+            <string>ArialHebrew-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Category-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="CategoryController" title="Category" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="🔄 Oops, there's nothing here. Please create your own category first." numberOfLines="4" id="xIx-DJ-XLQ"/>
+                        <table alignment="left" id="XST-b8-7M5">
+                            <items>
+                                <tableRow identifier="categoryRow" id="O1u-FN-PiX" customClass="CategoryRow">
+                                    <group key="rootItem" width="1" height="40" alignment="left" id="qza-yZ-Dju">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Category" textAlignment="justified" id="omB-wB-1ew"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="categoryLabel" destination="omB-wB-1ew" id="SLP-9I-3QY"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="syncLabel" destination="xIx-DJ-XLQ" id="i66-gh-cU9"/>
+                        <outlet property="tableView" destination="XST-b8-7M5" id="Ri9-54-bkY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="344.79487179487182"/>
+        </scene>
+        <!--Amount-->
+        <scene sceneID="Xgl-kE-Orx">
+            <objects>
+                <controller identifier="AmountController" title="Amount" id="ZWX-Ju-CC0" customClass="NumberPadController">
+                    <items>
+                        <group width="1" height="25" alignment="left" id="jB4-kU-tgv">
+                            <items>
+                                <label height="20" alignment="center" verticalAlignment="center" text="$" textAlignment="justified" id="Vuo-VK-0p8"/>
+                                <label alignment="center" verticalAlignment="center" text="0.00" textAlignment="justified" id="Rnm-MK-Xcx">
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
+                                <button width="0.33300000000000002" height="25" alignment="right" hidden="YES" title="⌫" id="MaD-On-513">
+                                    <color key="backgroundColor" red="0.86415994169999999" green="0.2414260805" blue="0.14606603979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="12"/>
+                                    <connections>
+                                        <action selector="backspaceTapped" destination="ZWX-Ju-CC0" id="KAd-6P-but"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="b8D-D3-Ewa">
+                            <items>
+                                <group width="1" alignment="left" id="h7K-gs-Yw6">
+                                    <items>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="1" id="6lv-TH-tsp">
+                                            <connections>
+                                                <action selector="oneTapped" destination="ZWX-Ju-CC0" id="vK9-Xs-40g"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="2" id="ldW-Bt-kJy">
+                                            <connections>
+                                                <action selector="twoTapped" destination="ZWX-Ju-CC0" id="EXI-40-oM9"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="3" id="IVu-oI-miE">
+                                            <connections>
+                                                <action selector="threeTapped" destination="ZWX-Ju-CC0" id="e6v-n6-SFk"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="Exs-KP-l0s">
+                                    <items>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="4" id="Bb2-N1-UGh">
+                                            <connections>
+                                                <action selector="fourTapped" destination="ZWX-Ju-CC0" id="yay-hm-Nf3"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="5" id="n3O-WS-lo4">
+                                            <connections>
+                                                <action selector="fiveTapped" destination="ZWX-Ju-CC0" id="iPS-QB-4rU"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="6" id="j9M-Mo-U1F">
+                                            <connections>
+                                                <action selector="sixTapped" destination="ZWX-Ju-CC0" id="Hrv-Oc-boZ"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="vtL-rx-tFe">
+                                    <items>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="7" id="vbi-Ul-IOX">
+                                            <connections>
+                                                <action selector="sevenTapped" destination="ZWX-Ju-CC0" id="EbY-oq-y0p"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="8" id="ALc-bZ-12r">
+                                            <connections>
+                                                <action selector="eightTapped" destination="ZWX-Ju-CC0" id="YGz-19-ziV"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="9" id="8ml-2a-D9C">
+                                            <connections>
+                                                <action selector="nineTapped" destination="ZWX-Ju-CC0" id="riC-dq-FPP"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" id="ZQk-mQ-xpw">
+                                    <items>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="." id="aaN-wG-ifB">
+                                            <connections>
+                                                <action selector="dotTapped" destination="ZWX-Ju-CC0" id="PmP-lP-lH8"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="0" id="2g0-jq-th8">
+                                            <connections>
+                                                <action selector="zeroTapped" destination="ZWX-Ju-CC0" id="4zT-0q-xmG"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.33300000000000002" height="33" alignment="left" title="Done" id="Jw8-Pu-7Aa">
+                                            <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="12"/>
+                                            <connections>
+                                                <action selector="doneTapped" destination="ZWX-Ju-CC0" id="mpK-Ew-gqx"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="backspaceKey" destination="MaD-On-513" id="miw-fv-3aY"/>
+                        <outlet property="doneKey" destination="Jw8-Pu-7Aa" id="MJM-yf-nG8"/>
+                        <outlet property="numberBoard" destination="Rnm-MK-Xcx" id="eBY-Ec-wZa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="466.41025641025647" y="344.79487179487182"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Nothing" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

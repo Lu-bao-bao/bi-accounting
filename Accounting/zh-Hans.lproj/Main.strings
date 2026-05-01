@@ -1,0 +1,36 @@
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "1LY-cO-7Oo"; */
+"1LY-cO-7Oo.title" = "Home";
+
+/* Class = "UIViewController"; title = "Transaction List"; ObjectID = "3Iu-x5-M6b"; */
+"3Iu-x5-M6b.title" = "Transaction List";
+
+/* Class = "UINavigationItem"; title = "Select Category"; ObjectID = "K87-fF-4Qs"; */
+"K87-fF-4Qs.title" = "Select Category";
+
+/* Class = "UITabBarItem"; title = "Category"; ObjectID = "Mpw-Vz-Dd2"; */
+"Mpw-Vz-Dd2.title" = "Category";
+
+/* Class = "UINavigationItem"; title = "Category"; ObjectID = "Oby-f6-Ixp"; */
+"Oby-f6-Ixp.title" = "Category";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "RsI-Yl-ao9"; */
+"RsI-Yl-ao9.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "dQC-jh-FP6"; */
+"dQC-jh-FP6.title" = "Settings";
+
+/* Class = "UINavigationItem"; title = "Transactions"; ObjectID = "fZM-M0-Bsh"; */
+"fZM-M0-Bsh.title" = "Transactions";
+
+/* Class = "UITabBarItem"; title = "Transactions"; ObjectID = "hNy-v5-wb3"; */
+"hNy-v5-wb3.title" = "Transactions";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ot7-O9-KDp"; */
+"ot7-O9-KDp.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "Transactions"; ObjectID = "sHH-k4-OGr"; */
+"sHH-k4-OGr.title" = "Transactions";
+
+/* Class = "UIViewController"; title = "Amount"; ObjectID = "yVm-i8-xBl"; */
+"yVm-i8-xBl.title" = "Amount";

@@ -1,0 +1,60 @@
+
+/* Class = "WKInterfaceButton"; title = "0"; ObjectID = "2g0-jq-th8"; */
+"2g0-jq-th8.title" = "0";
+
+/* Class = "WKInterfaceButton"; title = "1"; ObjectID = "6lv-TH-tsp"; */
+"6lv-TH-tsp.title" = "1";
+
+/* Class = "WKInterfaceButton"; title = "9"; ObjectID = "8ml-2a-D9C"; */
+"8ml-2a-D9C.title" = "9";
+
+/* Class = "WKInterfaceButton"; title = "8"; ObjectID = "ALc-bZ-12r"; */
+"ALc-bZ-12r.title" = "8";
+
+/* Class = "WKInterfaceController"; title = "Category"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "Category";
+
+/* Class = "WKInterfaceButton"; title = "4"; ObjectID = "Bb2-N1-UGh"; */
+"Bb2-N1-UGh.title" = "4";
+
+/* Class = "WKInterfaceButton"; title = "3"; ObjectID = "IVu-oI-miE"; */
+"IVu-oI-miE.title" = "3";
+
+/* Class = "WKInterfaceLabel"; text = "Nothing"; ObjectID = "IdU-wH-bcW"; */
+"IdU-wH-bcW.text" = "Nothing";
+
+/* Class = "WKInterfaceButton"; title = "Done"; ObjectID = "Jw8-Pu-7Aa"; */
+"Jw8-Pu-7Aa.title" = "Done";
+
+/* Class = "WKInterfaceButton"; title = "⌫"; ObjectID = "MaD-On-513"; */
+"MaD-On-513.title" = "⌫";
+
+/* Class = "WKInterfaceLabel"; text = "0.00"; ObjectID = "Rnm-MK-Xcx"; */
+"Rnm-MK-Xcx.text" = "0.00";
+
+/* Class = "WKInterfaceLabel"; text = "$"; ObjectID = "Vuo-VK-0p8"; */
+"Vuo-VK-0p8.text" = "$";
+
+/* Class = "WKInterfaceController"; title = "Amount"; ObjectID = "ZWX-Ju-CC0"; */
+"ZWX-Ju-CC0.title" = "Amount";
+
+/* Class = "WKInterfaceButton"; title = "."; ObjectID = "aaN-wG-ifB"; */
+"aaN-wG-ifB.title" = ".";
+
+/* Class = "WKInterfaceButton"; title = "6"; ObjectID = "j9M-Mo-U1F"; */
+"j9M-Mo-U1F.title" = "6";
+
+/* Class = "WKInterfaceButton"; title = "2"; ObjectID = "ldW-Bt-kJy"; */
+"ldW-Bt-kJy.title" = "2";
+
+/* Class = "WKInterfaceButton"; title = "5"; ObjectID = "n3O-WS-lo4"; */
+"n3O-WS-lo4.title" = "5";
+
+/* Class = "WKInterfaceLabel"; text = "Category"; ObjectID = "omB-wB-1ew"; */
+"omB-wB-1ew.text" = "Category";
+
+/* Class = "WKInterfaceButton"; title = "7"; ObjectID = "vbi-Ul-IOX"; */
+"vbi-Ul-IOX.title" = "7";
+
+/* Class = "WKInterfaceLabel"; text = "🔄 Oops, there's nothing here. Please create your own category first."; ObjectID = "xIx-DJ-XLQ"; */
+"xIx-DJ-XLQ.text" = "🔄 Oops, there's nothing here. Please create your own category first.";

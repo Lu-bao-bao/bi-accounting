@@ -1,0 +1,1471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240C89741FD90D0000DC1625 /* ColorScheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C89731FD90D0000DC1625 /* ColorScheme.plist */; };
+		240FDB3C1FB6D874004072DB /* DefaultCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240FDB3B1FB6D874004072DB /* DefaultCategory.plist */; };
+		241C61DA1F8B4E600086DCFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C61D91F8B4E600086DCFD /* AppDelegate.m */; };
+		241C61DD1F8B4E600086DCFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C61DC1F8B4E600086DCFD /* ViewController.m */; };
+		241C61E01F8B4E600086DCFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241C61DE1F8B4E600086DCFD /* Main.storyboard */; };
+		241C61E51F8B4E600086DCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241C61E41F8B4E600086DCFD /* Assets.xcassets */; };
+		241C61E81F8B4E600086DCFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241C61E61F8B4E600086DCFD /* LaunchScreen.storyboard */; };
+		241C61EB1F8B4E600086DCFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C61EA1F8B4E600086DCFD /* main.m */; };
+		241C61F51F8B4E600086DCFD /* AccountingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C61F41F8B4E600086DCFD /* AccountingTests.m */; };
+		241C62001F8B4E600086DCFD /* AccountingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C61FF1F8B4E600086DCFD /* AccountingUITests.m */; };
+		241DA7AC1FDEF00700F4AF2B /* UIImage+UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 241DA7AB1FDEF00700F4AF2B /* UIImage+UIImageExtras.m */; };
+		24288AB11FBE7D8900AE2A04 /* KeepAccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24288AB01FBE7D8900AE2A04 /* KeepAccountsViewController.xib */; };
+		243C16351FCDD546004F3E20 /* BudgetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243C16341FCDD546004F3E20 /* BudgetManager.m */; };
+		243D419C1FD336FD006C4E5A /* TagSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243D419A1FD336FD006C4E5A /* TagSettingViewController.m */; };
+		243D419D1FD336FD006C4E5A /* TagSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243D419B1FD336FD006C4E5A /* TagSettingViewController.xib */; };
+		243D41A01FD345B2006C4E5A /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 243D419F1FD345B2006C4E5A /* TagModel.m */; };
+		243D41A11FD3499A006C4E5A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244F84CB1FA1D2990044FA97 /* BaseModel.m */; };
+		243D41A51FD3C7D6006C4E5A /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243D41A31FD3C7D6006C4E5A /* TagViewController.m */; };
+		243D41A61FD3C7D6006C4E5A /* TagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243D41A41FD3C7D6006C4E5A /* TagViewController.xib */; };
+		243D41AA1FD44EE1006C4E5A /* TagDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 243D41A91FD44EE1006C4E5A /* TagDelegate.m */; };
+		244F84CC1FA1D2990044FA97 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244F84CB1FA1D2990044FA97 /* BaseModel.m */; };
+		244F84CD1FA1D42C0044FA97 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 244F84CB1FA1D2990044FA97 /* BaseModel.m */; };
+		2454D5F01FA1B9DB00579753 /* AccountingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454D5EF1FA1B9DB00579753 /* AccountingModel.m */; };
+		2454D5F11FA1B9DB00579753 /* AccountingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454D5EF1FA1B9DB00579753 /* AccountingModel.m */; };
+		246457DF1FBADFE000B72EB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246457E11FBADFE000B72EB6 /* Localizable.strings */; };
+		246457E91FBC3D6100B72EB6 /* UIControl+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 246457E81FBC3D6100B72EB6 /* UIControl+UIButton.m */; };
+		2464FBE71FC0A3FE00CA8E43 /* CALayer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464FBE61FC0A3FE00CA8E43 /* CALayer+Addition.m */; };
+		2464FBEA1FC26F5700CA8E43 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464FBE91FC26F5700CA8E43 /* NoteViewController.m */; };
+		246667FB1F9B346600F6FF32 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246667F91F9B346600F6FF32 /* Interface.storyboard */; };
+		246667FD1F9B346600F6FF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246667FC1F9B346600F6FF32 /* Assets.xcassets */; };
+		246668041F9B346600F6FF32 /* AccountingWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 246668031F9B346600F6FF32 /* AccountingWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2466680A1F9B346600F6FF32 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246668091F9B346600F6FF32 /* InterfaceController.m */; };
+		2466680D1F9B346600F6FF32 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2466680C1F9B346600F6FF32 /* ExtensionDelegate.m */; };
+		246668101F9B346600F6FF32 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2466680F1F9B346600F6FF32 /* NotificationController.m */; };
+		246668121F9B346600F6FF32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246668111F9B346600F6FF32 /* Assets.xcassets */; };
+		246668171F9B346600F6FF32 /* AccountingWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 246667F71F9B346600F6FF32 /* AccountingWatch.app */; };
+		246668231F9B3BE600F6FF32 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24D477471F8B62E900765FB8 /* Model.xcdatamodeld */; };
+		246668241F9B3CCE00F6FF32 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B1CE91F991D1B00CBDA14 /* CategoryModel.m */; };
+		246668271F9B481500F6FF32 /* CategoryRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 246668261F9B481500F6FF32 /* CategoryRow.m */; };
+		246F65251FD9B74F005988DD /* RMSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F65241FD9B74F005988DD /* RMSSlider.m */; };
+		246F652D1FDBC97C005988DD /* DatePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 246F652C1FDBC97C005988DD /* DatePickerDelegate.m */; };
+		247650491FF1625400395E59 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 247650481FF1625400395E59 /* AboutUsViewController.m */; };
+		2479CABB1F95B02F0068D660 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24D477471F8B62E900765FB8 /* Model.xcdatamodeld */; };
+		247D57C61FC5F42B006F3E82 /* RMSPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247D57C51FC5F42B006F3E82 /* RMSPieView.m */; };
+		247ECAFD1FB42958008B98F1 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 247ECAFB1FB42729008B98F1 /* fontawesome-webfont.ttf */; };
+		24927FFA1FA0413B00F64532 /* NumberPadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24927FF91FA0413B00F64532 /* NumberPadController.m */; };
+		24927FFD1FA074A600F64532 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 24927FFC1FA074A600F64532 /* Utils.m */; };
+		24927FFE1FA074A600F64532 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 24927FFC1FA074A600F64532 /* Utils.m */; };
+		24927FFF1FA074A600F64532 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 24927FFC1FA074A600F64532 /* Utils.m */; };
+		249280021FA0783000F64532 /* NumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 249280011FA0783000F64532 /* NumberPad.m */; };
+		249280031FA0783000F64532 /* NumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 249280011FA0783000F64532 /* NumberPad.m */; };
+		249280041FA0783000F64532 /* NumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 249280011FA0783000F64532 /* NumberPad.m */; };
+		24956C051FBE8E7E00EDCA14 /* KeepAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24956C031FBE8E7E00EDCA14 /* KeepAccountsViewController.m */; };
+		249B1CEA1F991D1B00CBDA14 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B1CE91F991D1B00CBDA14 /* CategoryModel.m */; };
+		249B1CEB1F991F4300CBDA14 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B1CE91F991D1B00CBDA14 /* CategoryModel.m */; };
+		24B604921FC4A1DC001BAFA7 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B604901FC4A1DC001BAFA7 /* TransactionTableViewCell.m */; };
+		24B604931FC4A1DC001BAFA7 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B604911FC4A1DC001BAFA7 /* TransactionTableViewCell.xib */; };
+		24BC197D1F9099F600640914 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BC197B1F9099F600640914 /* CategoryViewController.m */; };
+		24BFB8321F9EE3F200B0006F /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BFB8311F9EE3F200B0006F /* WatchConnectivity.framework */; };
+		24BFE6AE1FBD474100088ED1 /* TransactionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BFE6AD1FBD474100088ED1 /* TransactionDelegate.m */; };
+		24D477491F8B62E900765FB8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24D477471F8B62E900765FB8 /* Model.xcdatamodeld */; };
+		24D88DEC1F91278300A4D399 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D88DEB1F91278300A4D399 /* NotificationCenter.framework */; };
+		24D88DF01F91278300A4D399 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D88DEF1F91278300A4D399 /* TodayViewController.m */; };
+		24D88DF31F91278300A4D399 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D88DF11F91278300A4D399 /* MainInterface.storyboard */; };
+		24D88DF71F91278400A4D399 /* AccountingToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24D88DE91F91278300A4D399 /* AccountingToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24F04E061FB1E916009D75BA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F04E041FB1E916009D75BA /* SettingViewController.m */; };
+		24F092171FC2B7B10051A85D /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F092161FC2B7B10051A85D /* NoteViewController.xib */; };
+		24F092191FC2B82B0051A85D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F092181FC2B82B0051A85D /* ViewController.xib */; };
+		24F0921A1FC33A480051A85D /* UIControl+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 246457E81FBC3D6100B72EB6 /* UIControl+UIButton.m */; };
+		24F30E6A1FEA14B1004B49B7 /* EmptyInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F30E691FEA14B1004B49B7 /* EmptyInfoTableViewCell.xib */; };
+		24F30E6D1FEAA63C004B49B7 /* EmptyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F30E6C1FEAA63C004B49B7 /* EmptyInfoTableViewCell.m */; };
+		DFB937062768963BF1F3AF02 /* Pods_Accounting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA406F360213E14E7B03C02D /* Pods_Accounting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241C61F11F8B4E600086DCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61CD1F8B4E600086DCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241C61D41F8B4E600086DCFD;
+			remoteInfo = Accounting;
+		};
+		241C61FC1F8B4E600086DCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61CD1F8B4E600086DCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241C61D41F8B4E600086DCFD;
+			remoteInfo = Accounting;
+		};
+		246668051F9B346600F6FF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61CD1F8B4E600086DCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246668021F9B346600F6FF32;
+			remoteInfo = "AccountingWatch Extension";
+		};
+		246668151F9B346600F6FF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61CD1F8B4E600086DCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246667F61F9B346600F6FF32;
+			remoteInfo = AccountingWatch;
+		};
+		24D88DF51F91278400A4D399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241C61CD1F8B4E600086DCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D88DE81F91278300A4D399;
+			remoteInfo = AccountingToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2466681D1F9B346600F6FF32 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				246668041F9B346600F6FF32 /* AccountingWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2466681F1F9B346600F6FF32 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				246668171F9B346600F6FF32 /* AccountingWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D88DFB1F91278400A4D399 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				24D88DF71F91278400A4D399 /* AccountingToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23F43F0359F2AB570D0D97C7 /* Pods-Accounting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accounting.release.xcconfig"; path = "Pods/Target Support Files/Pods-Accounting/Pods-Accounting.release.xcconfig"; sourceTree = "<group>"; };
+		240C89731FD90D0000DC1625 /* ColorScheme.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ColorScheme.plist; sourceTree = "<group>"; };
+		240FDB3B1FB6D874004072DB /* DefaultCategory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DefaultCategory.plist; sourceTree = "<group>"; };
+		241C61D51F8B4E600086DCFD /* Accounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61D81F8B4E600086DCFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		241C61D91F8B4E600086DCFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		241C61DB1F8B4E600086DCFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		241C61DC1F8B4E600086DCFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		241C61DF1F8B4E600086DCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241C61E41F8B4E600086DCFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241C61E71F8B4E600086DCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241C61E91F8B4E600086DCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241C61EA1F8B4E600086DCFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		241C61F01F8B4E600086DCFD /* AccountingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61F41F8B4E600086DCFD /* AccountingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountingTests.m; sourceTree = "<group>"; };
+		241C61F61F8B4E600086DCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241C61FB1F8B4E600086DCFD /* AccountingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241C61FF1F8B4E600086DCFD /* AccountingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountingUITests.m; sourceTree = "<group>"; };
+		241C62011F8B4E600086DCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241DA7AA1FDEF00700F4AF2B /* UIImage+UIImageExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageExtras.h"; sourceTree = "<group>"; };
+		241DA7AB1FDEF00700F4AF2B /* UIImage+UIImageExtras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageExtras.m"; sourceTree = "<group>"; };
+		24288AB01FBE7D8900AE2A04 /* KeepAccountsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeepAccountsViewController.xib; sourceTree = "<group>"; };
+		243C16331FCDD546004F3E20 /* BudgetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BudgetManager.h; sourceTree = "<group>"; };
+		243C16341FCDD546004F3E20 /* BudgetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudgetManager.m; sourceTree = "<group>"; };
+		243D41931FD32ECE006C4E5A /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		243D41941FD32ECE006C4E5A /* Tag+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataClass.h"; sourceTree = "<group>"; };
+		243D41951FD32ECE006C4E5A /* Tag+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataClass.m"; sourceTree = "<group>"; };
+		243D41961FD32ECE006C4E5A /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		243D41991FD336FD006C4E5A /* TagSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagSettingViewController.h; sourceTree = "<group>"; };
+		243D419A1FD336FD006C4E5A /* TagSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagSettingViewController.m; sourceTree = "<group>"; };
+		243D419B1FD336FD006C4E5A /* TagSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagSettingViewController.xib; sourceTree = "<group>"; };
+		243D419E1FD345B2006C4E5A /* TagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
+		243D419F1FD345B2006C4E5A /* TagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
+		243D41A21FD3C7D6006C4E5A /* TagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagViewController.h; sourceTree = "<group>"; };
+		243D41A31FD3C7D6006C4E5A /* TagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagViewController.m; sourceTree = "<group>"; };
+		243D41A41FD3C7D6006C4E5A /* TagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagViewController.xib; sourceTree = "<group>"; };
+		243D41A81FD44EE1006C4E5A /* TagDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagDelegate.h; sourceTree = "<group>"; };
+		243D41A91FD44EE1006C4E5A /* TagDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagDelegate.m; sourceTree = "<group>"; };
+		243E7C991F99239C00566393 /* Category+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataProperties.h"; sourceTree = "<group>"; };
+		243E7C9A1F99239C00566393 /* Category+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Category+CoreDataClass.h"; sourceTree = "<group>"; };
+		243E7C9B1F99239C00566393 /* Category+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataClass.m"; sourceTree = "<group>"; };
+		243E7C9C1F99239C00566393 /* Category+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Category+CoreDataProperties.m"; sourceTree = "<group>"; };
+		243E7C9D1F99239C00566393 /* Accounting+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accounting+CoreDataProperties.h"; sourceTree = "<group>"; };
+		243E7C9E1F99239C00566393 /* Accounting+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accounting+CoreDataClass.h"; sourceTree = "<group>"; };
+		243E7C9F1F99239C00566393 /* Accounting+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Accounting+CoreDataClass.m"; sourceTree = "<group>"; };
+		243E7CA01F99239C00566393 /* Accounting+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Accounting+CoreDataProperties.m"; sourceTree = "<group>"; };
+		244F84CA1FA1D2990044FA97 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		244F84CB1FA1D2990044FA97 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		2454D5EE1FA1B9DB00579753 /* AccountingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountingModel.h; sourceTree = "<group>"; };
+		2454D5EF1FA1B9DB00579753 /* AccountingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountingModel.m; sourceTree = "<group>"; };
+		246457D81FBADD7F00B72EB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		246457D91FBADD7F00B72EB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainInterface.strings"; sourceTree = "<group>"; };
+		246457DA1FBADD7F00B72EB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
+		246457E01FBADFE000B72EB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		246457E21FBADFE300B72EB6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		246457E71FBC3D6100B72EB6 /* UIControl+UIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+UIButton.h"; sourceTree = "<group>"; };
+		246457E81FBC3D6100B72EB6 /* UIControl+UIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+UIButton.m"; sourceTree = "<group>"; };
+		2464FBE51FC0A3FE00CA8E43 /* CALayer+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Addition.h"; sourceTree = "<group>"; };
+		2464FBE61FC0A3FE00CA8E43 /* CALayer+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Addition.m"; sourceTree = "<group>"; };
+		2464FBE81FC26F5700CA8E43 /* NoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		2464FBE91FC26F5700CA8E43 /* NoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		246631C01F95AA5D00037DF2 /* Accounting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Accounting.entitlements; sourceTree = "<group>"; };
+		246667F71F9B346600F6FF32 /* AccountingWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountingWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		246667FA1F9B346600F6FF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		246667FC1F9B346600F6FF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246667FE1F9B346600F6FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246668031F9B346600F6FF32 /* AccountingWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AccountingWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		246668081F9B346600F6FF32 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		246668091F9B346600F6FF32 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		2466680B1F9B346600F6FF32 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		2466680C1F9B346600F6FF32 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		2466680E1F9B346600F6FF32 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		2466680F1F9B346600F6FF32 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		246668111F9B346600F6FF32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246668131F9B346600F6FF32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246668141F9B346600F6FF32 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		246668201F9B37C800F6FF32 /* AccountingWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AccountingWatch.entitlements; sourceTree = "<group>"; };
+		246668211F9B37D400F6FF32 /* AccountingWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AccountingWatch Extension.entitlements"; sourceTree = "<group>"; };
+		246668251F9B481500F6FF32 /* CategoryRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryRow.h; sourceTree = "<group>"; };
+		246668261F9B481500F6FF32 /* CategoryRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryRow.m; sourceTree = "<group>"; };
+		246F65231FD9B74F005988DD /* RMSSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMSSlider.h; sourceTree = "<group>"; };
+		246F65241FD9B74F005988DD /* RMSSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSSlider.m; sourceTree = "<group>"; };
+		246F652B1FDBC97C005988DD /* DatePickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerDelegate.h; sourceTree = "<group>"; };
+		246F652C1FDBC97C005988DD /* DatePickerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerDelegate.m; sourceTree = "<group>"; };
+		247650471FF1625400395E59 /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		247650481FF1625400395E59 /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		247D57C41FC5F42B006F3E82 /* RMSPieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMSPieView.h; sourceTree = "<group>"; };
+		247D57C51FC5F42B006F3E82 /* RMSPieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMSPieView.m; sourceTree = "<group>"; };
+		247ECAFB1FB42729008B98F1 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		24927FF81FA0413B00F64532 /* NumberPadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberPadController.h; sourceTree = "<group>"; };
+		24927FF91FA0413B00F64532 /* NumberPadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberPadController.m; sourceTree = "<group>"; };
+		24927FFB1FA074A600F64532 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		24927FFC1FA074A600F64532 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		249280001FA0783000F64532 /* NumberPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberPad.h; sourceTree = "<group>"; };
+		249280011FA0783000F64532 /* NumberPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberPad.m; sourceTree = "<group>"; };
+		24956C021FBE8E7E00EDCA14 /* KeepAccountsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeepAccountsViewController.h; sourceTree = "<group>"; };
+		24956C031FBE8E7E00EDCA14 /* KeepAccountsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepAccountsViewController.m; sourceTree = "<group>"; };
+		249B1CE81F991D1B00CBDA14 /* CategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		249B1CE91F991D1B00CBDA14 /* CategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		24B6048F1FC4A1DC001BAFA7 /* TransactionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewCell.h; sourceTree = "<group>"; };
+		24B604901FC4A1DC001BAFA7 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
+		24B604911FC4A1DC001BAFA7 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		24BC197A1F9099F600640914 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		24BC197B1F9099F600640914 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		24BFB8311F9EE3F200B0006F /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		24BFE6AC1FBD474100088ED1 /* TransactionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionDelegate.h; sourceTree = "<group>"; };
+		24BFE6AD1FBD474100088ED1 /* TransactionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionDelegate.m; sourceTree = "<group>"; };
+		24D477481F8B62E900765FB8 /* Accounting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accounting.xcdatamodel; sourceTree = "<group>"; };
+		24D88DE91F91278300A4D399 /* AccountingToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AccountingToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D88DEB1F91278300A4D399 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		24D88DEE1F91278300A4D399 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		24D88DEF1F91278300A4D399 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		24D88DF21F91278300A4D399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		24D88DF41F91278400A4D399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D88DFC1F912D0B00A4D399 /* AccountingToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AccountingToday.entitlements; sourceTree = "<group>"; };
+		24F04E031FB1E916009D75BA /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		24F04E041FB1E916009D75BA /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		24F092161FC2B7B10051A85D /* NoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		24F092181FC2B82B0051A85D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		24F30E691FEA14B1004B49B7 /* EmptyInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyInfoTableViewCell.xib; sourceTree = "<group>"; };
+		24F30E6B1FEAA63B004B49B7 /* EmptyInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyInfoTableViewCell.h; sourceTree = "<group>"; };
+		24F30E6C1FEAA63C004B49B7 /* EmptyInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyInfoTableViewCell.m; sourceTree = "<group>"; };
+		30A8F7FB1FEB1D93E6B3FC6E /* Pods-Accounting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accounting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Accounting/Pods-Accounting.debug.xcconfig"; sourceTree = "<group>"; };
+		CA406F360213E14E7B03C02D /* Pods_Accounting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accounting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241C61D21F8B4E600086DCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB937062768963BF1F3AF02 /* Pods_Accounting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61ED1F8B4E600086DCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F81F8B4E600086DCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246668001F9B346600F6FF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BFB8321F9EE3F200B0006F /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D88DE61F91278300A4D399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D88DEC1F91278300A4D399 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BB94C1695DA0FF39E67F23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D3131D4838893FAC437273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A8F7FB1FEB1D93E6B3FC6E /* Pods-Accounting.debug.xcconfig */,
+				23F43F0359F2AB570D0D97C7 /* Pods-Accounting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		240C89721FD90BE500DC1625 /* Config Files */ = {
+			isa = PBXGroup;
+			children = (
+				240FDB3B1FB6D874004072DB /* DefaultCategory.plist */,
+				240C89731FD90D0000DC1625 /* ColorScheme.plist */,
+			);
+			path = "Config Files";
+			sourceTree = "<group>";
+		};
+		241C61CC1F8B4E600086DCFD = {
+			isa = PBXGroup;
+			children = (
+				241C61D71F8B4E600086DCFD /* Accounting */,
+				241C61F31F8B4E600086DCFD /* AccountingTests */,
+				241C61FE1F8B4E600086DCFD /* AccountingUITests */,
+				24D88DED1F91278300A4D399 /* AccountingToday */,
+				246667F81F9B346600F6FF32 /* AccountingWatch */,
+				246668071F9B346600F6FF32 /* AccountingWatch Extension */,
+				24D88DEA1F91278300A4D399 /* Frameworks */,
+				241C61D61F8B4E600086DCFD /* Products */,
+				17D3131D4838893FAC437273 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		241C61D61F8B4E600086DCFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241C61D51F8B4E600086DCFD /* Accounting.app */,
+				241C61F01F8B4E600086DCFD /* AccountingTests.xctest */,
+				241C61FB1F8B4E600086DCFD /* AccountingUITests.xctest */,
+				24D88DE91F91278300A4D399 /* AccountingToday.appex */,
+				246667F71F9B346600F6FF32 /* AccountingWatch.app */,
+				246668031F9B346600F6FF32 /* AccountingWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241C61D71F8B4E600086DCFD /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				246631C01F95AA5D00037DF2 /* Accounting.entitlements */,
+				2464FBE41FC0A37200CA8E43 /* Services */,
+				249B1CE71F991CA300CBDA14 /* Entities */,
+				243D41A71FD44C1A006C4E5A /* Delegate */,
+				24D477671F8B750C00765FB8 /* Models */,
+				24BFE6B21FBD72EC00088ED1 /* Views */,
+				24E8696D1F8D093D005B3681 /* Controllers */,
+				247ECAFC1FB42913008B98F1 /* Supporting Files */,
+				240C89721FD90BE500DC1625 /* Config Files */,
+				246457E11FBADFE000B72EB6 /* Localizable.strings */,
+				241C61EA1F8B4E600086DCFD /* main.m */,
+				241C61D81F8B4E600086DCFD /* AppDelegate.h */,
+				241C61D91F8B4E600086DCFD /* AppDelegate.m */,
+				241C61E91F8B4E600086DCFD /* Info.plist */,
+				241C61E41F8B4E600086DCFD /* Assets.xcassets */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		241C61F31F8B4E600086DCFD /* AccountingTests */ = {
+			isa = PBXGroup;
+			children = (
+				241C61F41F8B4E600086DCFD /* AccountingTests.m */,
+				241C61F61F8B4E600086DCFD /* Info.plist */,
+			);
+			path = AccountingTests;
+			sourceTree = "<group>";
+		};
+		241C61FE1F8B4E600086DCFD /* AccountingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241C61FF1F8B4E600086DCFD /* AccountingUITests.m */,
+				241C62011F8B4E600086DCFD /* Info.plist */,
+			);
+			path = AccountingUITests;
+			sourceTree = "<group>";
+		};
+		243D41A71FD44C1A006C4E5A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				24BFE6AC1FBD474100088ED1 /* TransactionDelegate.h */,
+				24BFE6AD1FBD474100088ED1 /* TransactionDelegate.m */,
+				243D41A81FD44EE1006C4E5A /* TagDelegate.h */,
+				243D41A91FD44EE1006C4E5A /* TagDelegate.m */,
+				246F652B1FDBC97C005988DD /* DatePickerDelegate.h */,
+				246F652C1FDBC97C005988DD /* DatePickerDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2464FBE41FC0A37200CA8E43 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24927FFB1FA074A600F64532 /* Utils.h */,
+				24927FFC1FA074A600F64532 /* Utils.m */,
+				249280001FA0783000F64532 /* NumberPad.h */,
+				249280011FA0783000F64532 /* NumberPad.m */,
+				243C16331FCDD546004F3E20 /* BudgetManager.h */,
+				243C16341FCDD546004F3E20 /* BudgetManager.m */,
+				246457E71FBC3D6100B72EB6 /* UIControl+UIButton.h */,
+				246457E81FBC3D6100B72EB6 /* UIControl+UIButton.m */,
+				2464FBE51FC0A3FE00CA8E43 /* CALayer+Addition.h */,
+				2464FBE61FC0A3FE00CA8E43 /* CALayer+Addition.m */,
+				241DA7AA1FDEF00700F4AF2B /* UIImage+UIImageExtras.h */,
+				241DA7AB1FDEF00700F4AF2B /* UIImage+UIImageExtras.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		246667F81F9B346600F6FF32 /* AccountingWatch */ = {
+			isa = PBXGroup;
+			children = (
+				246668201F9B37C800F6FF32 /* AccountingWatch.entitlements */,
+				246667F91F9B346600F6FF32 /* Interface.storyboard */,
+				246667FC1F9B346600F6FF32 /* Assets.xcassets */,
+				246667FE1F9B346600F6FF32 /* Info.plist */,
+			);
+			path = AccountingWatch;
+			sourceTree = "<group>";
+		};
+		246668071F9B346600F6FF32 /* AccountingWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				246668211F9B37D400F6FF32 /* AccountingWatch Extension.entitlements */,
+				246668251F9B481500F6FF32 /* CategoryRow.h */,
+				246668261F9B481500F6FF32 /* CategoryRow.m */,
+				246668081F9B346600F6FF32 /* InterfaceController.h */,
+				246668091F9B346600F6FF32 /* InterfaceController.m */,
+				2466680B1F9B346600F6FF32 /* ExtensionDelegate.h */,
+				2466680C1F9B346600F6FF32 /* ExtensionDelegate.m */,
+				2466680E1F9B346600F6FF32 /* NotificationController.h */,
+				2466680F1F9B346600F6FF32 /* NotificationController.m */,
+				24927FF81FA0413B00F64532 /* NumberPadController.h */,
+				24927FF91FA0413B00F64532 /* NumberPadController.m */,
+				246668111F9B346600F6FF32 /* Assets.xcassets */,
+				246668131F9B346600F6FF32 /* Info.plist */,
+				246668141F9B346600F6FF32 /* PushNotificationPayload.apns */,
+			);
+			path = "AccountingWatch Extension";
+			sourceTree = "<group>";
+		};
+		247ECAFC1FB42913008B98F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				247ECAFB1FB42729008B98F1 /* fontawesome-webfont.ttf */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249B1CE71F991CA300CBDA14 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				24D477471F8B62E900765FB8 /* Model.xcdatamodeld */,
+				243E7C9D1F99239C00566393 /* Accounting+CoreDataProperties.h */,
+				243E7C9E1F99239C00566393 /* Accounting+CoreDataClass.h */,
+				243E7C9F1F99239C00566393 /* Accounting+CoreDataClass.m */,
+				243E7CA01F99239C00566393 /* Accounting+CoreDataProperties.m */,
+				243E7C991F99239C00566393 /* Category+CoreDataProperties.h */,
+				243E7C9A1F99239C00566393 /* Category+CoreDataClass.h */,
+				243E7C9B1F99239C00566393 /* Category+CoreDataClass.m */,
+				243E7C9C1F99239C00566393 /* Category+CoreDataProperties.m */,
+				243D41931FD32ECE006C4E5A /* Tag+CoreDataProperties.h */,
+				243D41941FD32ECE006C4E5A /* Tag+CoreDataClass.h */,
+				243D41951FD32ECE006C4E5A /* Tag+CoreDataClass.m */,
+				243D41961FD32ECE006C4E5A /* Tag+CoreDataProperties.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		24BFE6B21FBD72EC00088ED1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				241C61DE1F8B4E600086DCFD /* Main.storyboard */,
+				241C61E61F8B4E600086DCFD /* LaunchScreen.storyboard */,
+				24F092181FC2B82B0051A85D /* ViewController.xib */,
+				24288AB01FBE7D8900AE2A04 /* KeepAccountsViewController.xib */,
+				24F092161FC2B7B10051A85D /* NoteViewController.xib */,
+				243D41A41FD3C7D6006C4E5A /* TagViewController.xib */,
+				24B6048F1FC4A1DC001BAFA7 /* TransactionTableViewCell.h */,
+				24B604901FC4A1DC001BAFA7 /* TransactionTableViewCell.m */,
+				24B604911FC4A1DC001BAFA7 /* TransactionTableViewCell.xib */,
+				24F30E6B1FEAA63B004B49B7 /* EmptyInfoTableViewCell.h */,
+				24F30E6C1FEAA63C004B49B7 /* EmptyInfoTableViewCell.m */,
+				24F30E691FEA14B1004B49B7 /* EmptyInfoTableViewCell.xib */,
+				243D419B1FD336FD006C4E5A /* TagSettingViewController.xib */,
+				247D57C41FC5F42B006F3E82 /* RMSPieView.h */,
+				247D57C51FC5F42B006F3E82 /* RMSPieView.m */,
+				246F65231FD9B74F005988DD /* RMSSlider.h */,
+				246F65241FD9B74F005988DD /* RMSSlider.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		24D477671F8B750C00765FB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				244F84CA1FA1D2990044FA97 /* BaseModel.h */,
+				244F84CB1FA1D2990044FA97 /* BaseModel.m */,
+				2454D5EE1FA1B9DB00579753 /* AccountingModel.h */,
+				2454D5EF1FA1B9DB00579753 /* AccountingModel.m */,
+				249B1CE81F991D1B00CBDA14 /* CategoryModel.h */,
+				249B1CE91F991D1B00CBDA14 /* CategoryModel.m */,
+				243D419E1FD345B2006C4E5A /* TagModel.h */,
+				243D419F1FD345B2006C4E5A /* TagModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24D88DEA1F91278300A4D399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24BFB8311F9EE3F200B0006F /* WatchConnectivity.framework */,
+				24D88DEB1F91278300A4D399 /* NotificationCenter.framework */,
+				CA406F360213E14E7B03C02D /* Pods_Accounting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24D88DED1F91278300A4D399 /* AccountingToday */ = {
+			isa = PBXGroup;
+			children = (
+				24D88DFC1F912D0B00A4D399 /* AccountingToday.entitlements */,
+				24D88DEE1F91278300A4D399 /* TodayViewController.h */,
+				24D88DEF1F91278300A4D399 /* TodayViewController.m */,
+				24D88DF11F91278300A4D399 /* MainInterface.storyboard */,
+				24D88DF41F91278400A4D399 /* Info.plist */,
+			);
+			path = AccountingToday;
+			sourceTree = "<group>";
+		};
+		24E8696D1F8D093D005B3681 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				241C61DB1F8B4E600086DCFD /* ViewController.h */,
+				241C61DC1F8B4E600086DCFD /* ViewController.m */,
+				24956C021FBE8E7E00EDCA14 /* KeepAccountsViewController.h */,
+				24956C031FBE8E7E00EDCA14 /* KeepAccountsViewController.m */,
+				2464FBE81FC26F5700CA8E43 /* NoteViewController.h */,
+				2464FBE91FC26F5700CA8E43 /* NoteViewController.m */,
+				243D41A21FD3C7D6006C4E5A /* TagViewController.h */,
+				243D41A31FD3C7D6006C4E5A /* TagViewController.m */,
+				24F04E031FB1E916009D75BA /* SettingViewController.h */,
+				24F04E041FB1E916009D75BA /* SettingViewController.m */,
+				24BC197A1F9099F600640914 /* CategoryViewController.h */,
+				24BC197B1F9099F600640914 /* CategoryViewController.m */,
+				243D41991FD336FD006C4E5A /* TagSettingViewController.h */,
+				243D419A1FD336FD006C4E5A /* TagSettingViewController.m */,
+				247650471FF1625400395E59 /* AboutUsViewController.h */,
+				247650481FF1625400395E59 /* AboutUsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241C61D41F8B4E600086DCFD /* Accounting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C62041F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "Accounting" */;
+			buildPhases = (
+				7F8A57A096714A4E655CEDA5 /* [CP] Check Pods Manifest.lock */,
+				241C61D11F8B4E600086DCFD /* Sources */,
+				241C61D21F8B4E600086DCFD /* Frameworks */,
+				241C61D31F8B4E600086DCFD /* Resources */,
+				24D88DFB1F91278400A4D399 /* Embed App Extensions */,
+				2466681F1F9B346600F6FF32 /* Embed Watch Content */,
+				2476504A1FFD4DCF00395E59 /* ShellScript */,
+				73623E92EB02B02999031771 /* [CP] Embed Pods Frameworks */,
+				AF0335A43460163A87AFC02F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D88DF61F91278400A4D399 /* PBXTargetDependency */,
+				246668161F9B346600F6FF32 /* PBXTargetDependency */,
+			);
+			name = Accounting;
+			productName = Accounting;
+			productReference = 241C61D51F8B4E600086DCFD /* Accounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241C61EF1F8B4E600086DCFD /* AccountingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C62071F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "AccountingTests" */;
+			buildPhases = (
+				241C61EC1F8B4E600086DCFD /* Sources */,
+				241C61ED1F8B4E600086DCFD /* Frameworks */,
+				241C61EE1F8B4E600086DCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241C61F21F8B4E600086DCFD /* PBXTargetDependency */,
+			);
+			name = AccountingTests;
+			productName = AccountingTests;
+			productReference = 241C61F01F8B4E600086DCFD /* AccountingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241C61FA1F8B4E600086DCFD /* AccountingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241C620A1F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "AccountingUITests" */;
+			buildPhases = (
+				241C61F71F8B4E600086DCFD /* Sources */,
+				241C61F81F8B4E600086DCFD /* Frameworks */,
+				241C61F91F8B4E600086DCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241C61FD1F8B4E600086DCFD /* PBXTargetDependency */,
+			);
+			name = AccountingUITests;
+			productName = AccountingUITests;
+			productReference = 241C61FB1F8B4E600086DCFD /* AccountingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		246667F61F9B346600F6FF32 /* AccountingWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2466681E1F9B346600F6FF32 /* Build configuration list for PBXNativeTarget "AccountingWatch" */;
+			buildPhases = (
+				246667F51F9B346600F6FF32 /* Resources */,
+				2466681D1F9B346600F6FF32 /* Embed App Extensions */,
+				B0BB94C1695DA0FF39E67F23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246668061F9B346600F6FF32 /* PBXTargetDependency */,
+			);
+			name = AccountingWatch;
+			productName = AccountingWatch;
+			productReference = 246667F71F9B346600F6FF32 /* AccountingWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		246668021F9B346600F6FF32 /* AccountingWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2466681C1F9B346600F6FF32 /* Build configuration list for PBXNativeTarget "AccountingWatch Extension" */;
+			buildPhases = (
+				246667FF1F9B346600F6FF32 /* Sources */,
+				246668001F9B346600F6FF32 /* Frameworks */,
+				246668011F9B346600F6FF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AccountingWatch Extension";
+			productName = "AccountingWatch Extension";
+			productReference = 246668031F9B346600F6FF32 /* AccountingWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		24D88DE81F91278300A4D399 /* AccountingToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D88DFA1F91278400A4D399 /* Build configuration list for PBXNativeTarget "AccountingToday" */;
+			buildPhases = (
+				24D88DE51F91278300A4D399 /* Sources */,
+				24D88DE61F91278300A4D399 /* Frameworks */,
+				24D88DE71F91278300A4D399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountingToday;
+			productName = AccountingToday;
+			productReference = 24D88DE91F91278300A4D399 /* AccountingToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241C61CD1F8B4E600086DCFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "RM studio.";
+				TargetAttributes = {
+					241C61D41F8B4E600086DCFD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					241C61EF1F8B4E600086DCFD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 241C61D41F8B4E600086DCFD;
+					};
+					241C61FA1F8B4E600086DCFD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 241C61D41F8B4E600086DCFD;
+					};
+					246667F61F9B346600F6FF32 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					246668021F9B346600F6FF32 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					24D88DE81F91278300A4D399 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 241C61D01F8B4E600086DCFD /* Build configuration list for PBXProject "Accounting" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 241C61CC1F8B4E600086DCFD;
+			productRefGroup = 241C61D61F8B4E600086DCFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241C61D41F8B4E600086DCFD /* Accounting */,
+				241C61EF1F8B4E600086DCFD /* AccountingTests */,
+				241C61FA1F8B4E600086DCFD /* AccountingUITests */,
+				24D88DE81F91278300A4D399 /* AccountingToday */,
+				246667F61F9B346600F6FF32 /* AccountingWatch */,
+				246668021F9B346600F6FF32 /* AccountingWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241C61D31F8B4E600086DCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247ECAFD1FB42958008B98F1 /* fontawesome-webfont.ttf in Resources */,
+				24F30E6A1FEA14B1004B49B7 /* EmptyInfoTableViewCell.xib in Resources */,
+				243D41A61FD3C7D6006C4E5A /* TagViewController.xib in Resources */,
+				240C89741FD90D0000DC1625 /* ColorScheme.plist in Resources */,
+				24F092191FC2B82B0051A85D /* ViewController.xib in Resources */,
+				24B604931FC4A1DC001BAFA7 /* TransactionTableViewCell.xib in Resources */,
+				24F092171FC2B7B10051A85D /* NoteViewController.xib in Resources */,
+				24288AB11FBE7D8900AE2A04 /* KeepAccountsViewController.xib in Resources */,
+				240FDB3C1FB6D874004072DB /* DefaultCategory.plist in Resources */,
+				241C61E81F8B4E600086DCFD /* LaunchScreen.storyboard in Resources */,
+				243D419D1FD336FD006C4E5A /* TagSettingViewController.xib in Resources */,
+				246457DF1FBADFE000B72EB6 /* Localizable.strings in Resources */,
+				241C61E51F8B4E600086DCFD /* Assets.xcassets in Resources */,
+				241C61E01F8B4E600086DCFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61EE1F8B4E600086DCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F91F8B4E600086DCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246667F51F9B346600F6FF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246667FD1F9B346600F6FF32 /* Assets.xcassets in Resources */,
+				246667FB1F9B346600F6FF32 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246668011F9B346600F6FF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246668121F9B346600F6FF32 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D88DE71F91278300A4D399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D88DF31F91278300A4D399 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2476504A1FFD4DCF00395E59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "xcrun agvtool next-version -all";
+		};
+		73623E92EB02B02999031771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Accounting/Pods-Accounting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Accounting/Pods-Accounting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F8A57A096714A4E655CEDA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Accounting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0335A43460163A87AFC02F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Accounting/Pods-Accounting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241C61D11F8B4E600086DCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24927FFD1FA074A600F64532 /* Utils.m in Sources */,
+				241C61DD1F8B4E600086DCFD /* ViewController.m in Sources */,
+				2464FBE71FC0A3FE00CA8E43 /* CALayer+Addition.m in Sources */,
+				246F65251FD9B74F005988DD /* RMSSlider.m in Sources */,
+				241DA7AC1FDEF00700F4AF2B /* UIImage+UIImageExtras.m in Sources */,
+				24F04E061FB1E916009D75BA /* SettingViewController.m in Sources */,
+				246F652D1FDBC97C005988DD /* DatePickerDelegate.m in Sources */,
+				2464FBEA1FC26F5700CA8E43 /* NoteViewController.m in Sources */,
+				24BFE6AE1FBD474100088ED1 /* TransactionDelegate.m in Sources */,
+				24F30E6D1FEAA63C004B49B7 /* EmptyInfoTableViewCell.m in Sources */,
+				243C16351FCDD546004F3E20 /* BudgetManager.m in Sources */,
+				247D57C61FC5F42B006F3E82 /* RMSPieView.m in Sources */,
+				249B1CEA1F991D1B00CBDA14 /* CategoryModel.m in Sources */,
+				241C61DA1F8B4E600086DCFD /* AppDelegate.m in Sources */,
+				241C61EB1F8B4E600086DCFD /* main.m in Sources */,
+				24F0921A1FC33A480051A85D /* UIControl+UIButton.m in Sources */,
+				247650491FF1625400395E59 /* AboutUsViewController.m in Sources */,
+				24B604921FC4A1DC001BAFA7 /* TransactionTableViewCell.m in Sources */,
+				244F84CC1FA1D2990044FA97 /* BaseModel.m in Sources */,
+				243D419C1FD336FD006C4E5A /* TagSettingViewController.m in Sources */,
+				243D41A51FD3C7D6006C4E5A /* TagViewController.m in Sources */,
+				243D41A01FD345B2006C4E5A /* TagModel.m in Sources */,
+				24BC197D1F9099F600640914 /* CategoryViewController.m in Sources */,
+				2454D5F01FA1B9DB00579753 /* AccountingModel.m in Sources */,
+				24956C051FBE8E7E00EDCA14 /* KeepAccountsViewController.m in Sources */,
+				249280021FA0783000F64532 /* NumberPad.m in Sources */,
+				243D41AA1FD44EE1006C4E5A /* TagDelegate.m in Sources */,
+				24D477491F8B62E900765FB8 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61EC1F8B4E600086DCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C61F51F8B4E600086DCFD /* AccountingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241C61F71F8B4E600086DCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C62001F8B4E600086DCFD /* AccountingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246667FF1F9B346600F6FF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2466680D1F9B346600F6FF32 /* ExtensionDelegate.m in Sources */,
+				2466680A1F9B346600F6FF32 /* InterfaceController.m in Sources */,
+				246668101F9B346600F6FF32 /* NotificationController.m in Sources */,
+				24927FFF1FA074A600F64532 /* Utils.m in Sources */,
+				246668241F9B3CCE00F6FF32 /* CategoryModel.m in Sources */,
+				24927FFA1FA0413B00F64532 /* NumberPadController.m in Sources */,
+				246668271F9B481500F6FF32 /* CategoryRow.m in Sources */,
+				246668231F9B3BE600F6FF32 /* Model.xcdatamodeld in Sources */,
+				243D41A11FD3499A006C4E5A /* BaseModel.m in Sources */,
+				249280041FA0783000F64532 /* NumberPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D88DE51F91278300A4D399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D88DF01F91278300A4D399 /* TodayViewController.m in Sources */,
+				249B1CEB1F991F4300CBDA14 /* CategoryModel.m in Sources */,
+				2479CABB1F95B02F0068D660 /* Model.xcdatamodeld in Sources */,
+				244F84CD1FA1D42C0044FA97 /* BaseModel.m in Sources */,
+				249280031FA0783000F64532 /* NumberPad.m in Sources */,
+				246457E91FBC3D6100B72EB6 /* UIControl+UIButton.m in Sources */,
+				2454D5F11FA1B9DB00579753 /* AccountingModel.m in Sources */,
+				24927FFE1FA074A600F64532 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241C61F21F8B4E600086DCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241C61D41F8B4E600086DCFD /* Accounting */;
+			targetProxy = 241C61F11F8B4E600086DCFD /* PBXContainerItemProxy */;
+		};
+		241C61FD1F8B4E600086DCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241C61D41F8B4E600086DCFD /* Accounting */;
+			targetProxy = 241C61FC1F8B4E600086DCFD /* PBXContainerItemProxy */;
+		};
+		246668061F9B346600F6FF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246668021F9B346600F6FF32 /* AccountingWatch Extension */;
+			targetProxy = 246668051F9B346600F6FF32 /* PBXContainerItemProxy */;
+		};
+		246668161F9B346600F6FF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246667F61F9B346600F6FF32 /* AccountingWatch */;
+			targetProxy = 246668151F9B346600F6FF32 /* PBXContainerItemProxy */;
+		};
+		24D88DF61F91278400A4D399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24D88DE81F91278300A4D399 /* AccountingToday */;
+			targetProxy = 24D88DF51F91278400A4D399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241C61DE1F8B4E600086DCFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241C61DF1F8B4E600086DCFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241C61E61F8B4E600086DCFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241C61E71F8B4E600086DCFD /* Base */,
+				246457D81FBADD7F00B72EB6 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		246457E11FBADFE000B72EB6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246457E01FBADFE000B72EB6 /* en */,
+				246457E21FBADFE300B72EB6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		246667F91F9B346600F6FF32 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246667FA1F9B346600F6FF32 /* Base */,
+				246457DA1FBADD7F00B72EB6 /* zh-Hans */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		24D88DF11F91278300A4D399 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D88DF21F91278300A4D399 /* Base */,
+				246457D91FBADD7F00B72EB6 /* zh-Hans */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241C62021F8B4E600086DCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		241C62031F8B4E600086DCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241C62051F8B4E600086DCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A8F7FB1FEB1D93E6B3FC6E /* Pods-Accounting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Accounting/Accounting.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = Accounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		241C62061F8B4E600086DCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F43F0359F2AB570D0D97C7 /* Pods-Accounting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Accounting/Accounting.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = Accounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		241C62081F8B4E600086DCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AccountingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.AccountingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accounting.app/Accounting";
+			};
+			name = Debug;
+		};
+		241C62091F8B4E600086DCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AccountingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.AccountingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accounting.app/Accounting";
+			};
+			name = Release;
+		};
+		241C620B1F8B4E600086DCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AccountingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.AccountingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accounting;
+			};
+			name = Debug;
+		};
+		241C620C1F8B4E600086DCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AccountingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.AccountingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accounting;
+			};
+			name = Release;
+		};
+		246668181F9B346600F6FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				IBSC_MODULE = AccountingWatch_Extension;
+				INFOPLIST_FILE = AccountingWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		246668191F9B346600F6FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				IBSC_MODULE = AccountingWatch_Extension;
+				INFOPLIST_FILE = AccountingWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		2466681A1F9B346600F6FF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = "AccountingWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		2466681B1F9B346600F6FF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = "AccountingWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		24D88DF81F91278400A4D399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccountingToday/AccountingToday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = AccountingToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.AccountingToday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D88DF91F91278400A4D399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AccountingToday/AccountingToday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S48UXY366P;
+				INFOPLIST_FILE = AccountingToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rm-s.Accounting.AccountingToday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241C61D01F8B4E600086DCFD /* Build configuration list for PBXProject "Accounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62021F8B4E600086DCFD /* Debug */,
+				241C62031F8B4E600086DCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C62041F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "Accounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62051F8B4E600086DCFD /* Debug */,
+				241C62061F8B4E600086DCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C62071F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "AccountingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C62081F8B4E600086DCFD /* Debug */,
+				241C62091F8B4E600086DCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241C620A1F8B4E600086DCFD /* Build configuration list for PBXNativeTarget "AccountingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241C620B1F8B4E600086DCFD /* Debug */,
+				241C620C1F8B4E600086DCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2466681C1F9B346600F6FF32 /* Build configuration list for PBXNativeTarget "AccountingWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2466681A1F9B346600F6FF32 /* Debug */,
+				2466681B1F9B346600F6FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2466681E1F9B346600F6FF32 /* Build configuration list for PBXNativeTarget "AccountingWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246668181F9B346600F6FF32 /* Debug */,
+				246668191F9B346600F6FF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D88DFA1F91278400A4D399 /* Build configuration list for PBXNativeTarget "AccountingToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D88DF81F91278400A4D399 /* Debug */,
+				24D88DF91F91278400A4D399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24D477471F8B62E900765FB8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24D477481F8B62E900765FB8 /* Accounting.xcdatamodel */,
+			);
+			currentVersion = 24D477481F8B62E900765FB8 /* Accounting.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 241C61CD1F8B4E600086DCFD /* Project object */;
+}
